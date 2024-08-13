@@ -1,0 +1,8 @@
+[package]
+name = "dynamic-music-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console = "0.15.8"
+kira = "0.9.4"
