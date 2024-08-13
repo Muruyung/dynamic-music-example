@@ -41,7 +41,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         &electro_tweener,
         ModulatorMapping {
             input_range: (0.0, 1.0),
-            output_range: (Volume::Amplitude(0.0), Volume::Amplitude(0.3)),
+            output_range: (Volume::Amplitude(0.0), Volume::Amplitude(0.5)),
             ..Default::default()
         }
     )).output_destination(&common_effect));
